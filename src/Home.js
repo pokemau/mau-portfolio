@@ -1,4 +1,4 @@
-import pic from './assets/meow.jpg';
+import pic from './assets/my_pic.jpg';
 
 
 const Home = () => {
