@@ -11,11 +11,9 @@ function App() {
       <Navbar />
       <div className="content">
         <Routes>
-          <Route path="/mau-portfolio">
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/projects" element={<Projects />}></Route>
-          </Route>
+          <Route path="mau-portfolio/" element={<Home />}></Route>
+          <Route path="mau-portfolio/about" element={<About />}></Route>
+          <Route path="mau-portfolio/projects" element={<Projects />}></Route>
         </Routes>
       </div>
     </div>
