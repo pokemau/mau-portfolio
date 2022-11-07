@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mau-portfolio/static/css/main.9ed9d69d.css",
-    "main.js": "/mau-portfolio/static/js/main.0ddbf451.js",
+    "main.js": "/mau-portfolio/static/js/main.ef2277f8.js",
     "static/media/meow.jpg": "/mau-portfolio/static/media/meow.2e73b0f2ff2130edd31a.jpg",
     "index.html": "/mau-portfolio/index.html",
     "main.9ed9d69d.css.map": "/mau-portfolio/static/css/main.9ed9d69d.css.map",
-    "main.0ddbf451.js.map": "/mau-portfolio/static/js/main.0ddbf451.js.map"
+    "main.ef2277f8.js.map": "/mau-portfolio/static/js/main.ef2277f8.js.map"
   },
   "entrypoints": [
     "static/css/main.9ed9d69d.css",
-    "static/js/main.0ddbf451.js"
+    "static/js/main.ef2277f8.js"
   ]
 }
