@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h1 className="project-h">Projects</h1>
       <div className="projects-list">
         {/* PROJECT 1 */}

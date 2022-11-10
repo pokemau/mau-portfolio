@@ -1,20 +1,19 @@
-import { Routes, Route } from "react-router-dom";
-//component imports
+// component imports
 import Navbar from "./Navbar";
 import Home from "./Home";
-import About from "./About";
-import Projects from "./Projects";
+import Contact from "./Contact";
+import SiteFooter from "./SiteFooter";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
 
-      <Routes>
-        <Route path="mau-portfolio/" element={<Home />}></Route>
-        <Route path="mau-portfolio/about" element={<About />}></Route>
-        <Route path="mau-portfolio/projects" element={<Projects />}></Route>
-      </Routes>
+      <Home />
+
+      <Contact />
+
+      <SiteFooter />
     </div>
   );
 }

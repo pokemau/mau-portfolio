@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   color: black;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin: 0.2em;
   display: flex;
   height: 2em;
@@ -44,6 +44,9 @@ body {
 }
 .nav-link:hover {
   background-color: rgb(243, 237, 248);
+}
+.nav-links > .active {
+  background-color: orange;
 }
 
 /* introduction */
