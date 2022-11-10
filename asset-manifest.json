@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mau-portfolio/static/css/main.7704644c.css",
-    "main.js": "/mau-portfolio/static/js/main.7cff86f1.js",
+    "main.css": "/mau-portfolio/static/css/main.b3844eb4.css",
+    "main.js": "/mau-portfolio/static/js/main.24f6c8cb.js",
     "static/media/my_pic.jpg": "/mau-portfolio/static/media/my_pic.2e73b0f2ff2130edd31a.jpg",
     "static/media/lolchamps.png": "/mau-portfolio/static/media/lolchamps.88f8b847173e9ec95690.png",
     "static/media/instaclone.png": "/mau-portfolio/static/media/instaclone.dc8c03e1924889e98b06.png",
@@ -10,11 +10,11 @@
     "static/media/js.png": "/mau-portfolio/static/media/js.4210eaa97323b6fe15bd.png",
     "static/media/css.png": "/mau-portfolio/static/media/css.4061c54b50fc021b8c57.png",
     "index.html": "/mau-portfolio/index.html",
-    "main.7704644c.css.map": "/mau-portfolio/static/css/main.7704644c.css.map",
-    "main.7cff86f1.js.map": "/mau-portfolio/static/js/main.7cff86f1.js.map"
+    "main.b3844eb4.css.map": "/mau-portfolio/static/css/main.b3844eb4.css.map",
+    "main.24f6c8cb.js.map": "/mau-portfolio/static/js/main.24f6c8cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7704644c.css",
-    "static/js/main.7cff86f1.js"
+    "static/css/main.b3844eb4.css",
+    "static/js/main.24f6c8cb.js"
   ]
 }
