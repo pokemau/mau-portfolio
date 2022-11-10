@@ -1,36 +1,35 @@
-import pic from './assets/my_pic.jpg';
+import pic from "./assets/my_pic.jpg";
 
+//component imports
+import Technologies from "./Technologies";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
     <div className="body-container">
       <div className="info-container">
-        <img className="my-img" src={pic} alt="maurice" />
+        <img className="my-img" src={pic} alt="maurice pic" />
+
         <div className="intro-text-container">
-          <h2>Maurice R. Tañeca</h2>
-          <p style={{ paddingBottom: ".5em" }} >Frontend Developer</p>
+          <h2 className="intro-h">MAURICE R. TAÑECA</h2>
+          <p className="intro-p">Front-End Web Developer</p>
 
           <br />
-          <p>Currently a Computer Science student at Cebu Institute of Technology.
-            Programming has been my passion since the day I found out about it.
+
+          <p className="intro-text">
+            Currently a Computer Science student at Cebu Institute of
+            Technology. Programming has been my passion since the day I found
+            out about it. With a good foundation of HTML, CSS and Javascript, I
+            am Eager to learn more and expand my knowledge as a developer.
           </p>
-          <br />
-          <p>Eager to learn more to expand my knowledge as a developer and grow.</p>
+          <p className="intro-text"></p>
         </div>
       </div>
 
-      <div className="technologies">
-        <h1>Technologies/Frameworks</h1>
-        <div className="tech-list">
-          <p>Javascript</p>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>React.js</p>
-          <p>Python</p>
-          <p>Linux</p>
-          <p>Git/Github</p>
-        </div>
-      </div>
+      {/* ADD LATER */}
+      {/* <Technologies /> */}
+
+      <Projects />
     </div>
   );
 };
