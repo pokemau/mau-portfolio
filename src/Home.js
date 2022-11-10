@@ -3,6 +3,7 @@ import pic from "./assets/my_pic.jpg";
 //component imports
 import Technologies from "./Technologies";
 import Projects from "./Projects";
+import SiteFooter from "./SiteFooter";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
             Currently a Computer Science student at Cebu Institute of
             Technology. Programming has been my passion since the day I found
             out about it. With a good foundation of HTML, CSS and Javascript, I
-            am Eager to learn more and expand my knowledge as a developer.
+            am eager to learn more and expand my knowledge as a developer.
           </p>
           <p className="intro-text"></p>
         </div>
@@ -30,6 +31,8 @@ const Home = () => {
       {/* <Technologies /> */}
 
       <Projects />
+
+      <SiteFooter />
     </div>
   );
 };
