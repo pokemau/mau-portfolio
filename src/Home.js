@@ -11,7 +11,7 @@ const Home = () => {
         <img className="my-img" src={pic} alt="slamm pic" />
 
         <div className="intro-text-container">
-          <h2 className="intro-h">SLAMM KHELMER A. LUAB/h2>
+          <h2 className="intro-h">SLAMM KHELMER A. LUAB</h2>
           <p className="intro-p">Game Developer</p>
 
           <br />
