@@ -21,8 +21,8 @@ const Projects = () => {
           <p className="proj-desc">
             A simple flashcard app where it can be used by the user to quiz
             themselves when studying for an upcoming quiz or exam. It uses the
-            browser's local storage to store flashcard sets which can be
-            deleted.
+            browser's local storage to store flashcard sets which can be deleted
+            by the user.
           </p>
           <div className="tech-used">
             <p>HTML</p>
@@ -74,7 +74,7 @@ const Projects = () => {
           <p className="proj-desc">
             A web app made with ReactJS which shows the basic information of a
             champion in the famous MOBA game League of Legends. The data is
-            downloaded from the League of Legends
+            downloaded from Riot Game's data dragon.
           </p>
           <div className="tech-used">
             <p>REACTJS</p>
@@ -123,11 +123,7 @@ const Projects = () => {
           </a>
 
           <h1 className="proj-title">Instagram Clone</h1>
-          <p className="proj-desc">
-            A web app made with ReactJS which shows the basic information of a
-            champion in the famous MOBA game League of Legends. The data is
-            downloaded from the League of Legends
-          </p>
+          <p className="proj-desc">A simple site</p>
           <div className="tech-used">
             <p>HTML</p>
             <p>CSS</p>
