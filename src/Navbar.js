@@ -1,19 +1,39 @@
-import { NavLink, Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <h1 className="nav-logo">MT</h1>
       <div className="nav-links">
-        <NavLink to="mau-portfolio/" end className="nav-link">
-          Home
-        </NavLink>
-        <NavLink to="mau-portfolio/projects" className="nav-link">
+        <Link
+          to="about"
+          className="nav-link"
+          smooth={true}
+          offset={-25}
+          duration={200}
+        >
+          About
+        </Link>
+
+        <Link
+          to="projects"
+          className="nav-link"
+          smooth={true}
+          offset={-15}
+          duration={400}
+        >
           Projects
-        </NavLink>
-        <NavLink to="mau-portfolio/about" className="nav-link">
+        </Link>
+
+        <Link
+          to="contact"
+          className="nav-link"
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
           Contact
-        </NavLink>
+        </Link>
       </div>
     </nav>
   );

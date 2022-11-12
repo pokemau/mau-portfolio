@@ -1,14 +1,22 @@
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h1 className="project-h">Projects</h1>
       <div className="projects-list">
+        {/* PROJECT 1 */}
         <div className="project">
-          <img
-            className="proj-img"
-            src={require("./assets/flaschardo1.png")}
-            alt="flashcardo img"
-          />
+          <a
+            href="https://pokemau.github.io/flashcardo/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="proj-img"
+              src={require("./assets/flaschardo1.png")}
+              alt="flashcardo img"
+            />
+          </a>
+
           <h1 className="proj-title">Flashcardo</h1>
           <p className="proj-desc">
             A simple flashcard app where it can be used by the user to quiz
@@ -20,40 +28,48 @@ const Projects = () => {
             <p>HTML</p>
             <p>CSS</p>
             <p>JAVASCRIPT</p>
-          </div>
 
-          <div className="redirect-links-container">
-            <a
-              href="https://github.com/pokemau/flashcardo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="redirect-img"
-                src={require("./assets/github-logo.png")}
-                alt=""
-              />
-            </a>
-            <a
-              href="https://pokemau.github.io/flashcardo/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="redirect-img"
-                src={require("./assets/go-to-icon.png")}
-                alt=""
-              />
-            </a>
+            <div className="redirect-links-container">
+              <a
+                href="https://github.com/pokemau/flashcardo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("./assets/github-logo.png")}
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://pokemau.github.io/flashcardo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("./assets/go-to-icon.png")}
+                  alt=""
+                />
+              </a>
+            </div>
           </div>
         </div>
 
+        {/* PROJECT 2 */}
         <div className="project">
-          <img
-            className="proj-img"
-            src={require("./assets/lolchamps.png")}
-            alt="flashcardo img"
-          />
+          <a
+            href="https://pokemau.github.io/lol-champs-react/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="proj-img"
+              src={require("./assets/lolchamps.png")}
+              alt="flashcardo img"
+            />
+          </a>
+
           <h1 className="proj-title">LOL Champa</h1>
           <p className="proj-desc">
             A web app made with ReactJS which shows the basic information of a
@@ -64,31 +80,82 @@ const Projects = () => {
             <p>REACTJS</p>
             <p>HTML</p>
             <p>CSS</p>
-          </div>
 
-          <div className="redirect-links-container">
-            <a
-              href="https://github.com/pokemau/lol-champs-react"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="redirect-img"
-                src={require("./assets/github-logo.png")}
-                alt=""
-              />
-            </a>
-            <a
-              href="https://pokemau.github.io/lol-champs-react/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="redirect-img"
-                src={require("./assets/go-to-icon.png")}
-                alt=""
-              />
-            </a>
+            <div className="redirect-links-container">
+              <a
+                href="https://github.com/pokemau/lol-champs-react"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("./assets/github-logo.png")}
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://pokemau.github.io/lol-champs-react/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("./assets/go-to-icon.png")}
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* PROJECT 3 */}
+        <div className="project">
+          <a
+            href="https://pokemau.github.io/instagramClone/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="proj-img"
+              src={require("./assets/instaclone.png")}
+              alt="flashcardo img"
+            />
+          </a>
+
+          <h1 className="proj-title">Instagram Clone</h1>
+          <p className="proj-desc">
+            A web app made with ReactJS which shows the basic information of a
+            champion in the famous MOBA game League of Legends. The data is
+            downloaded from the League of Legends
+          </p>
+          <div className="tech-used">
+            <p>HTML</p>
+            <p>CSS</p>
+
+            <div className="redirect-links-container">
+              <a
+                href="https://github.com/pokemau/instagramClone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("./assets/github-logo.png")}
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://pokemau.github.io/instagramClone/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("./assets/go-to-icon.png")}
+                  alt=""
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

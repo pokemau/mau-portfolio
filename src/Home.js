@@ -3,10 +3,12 @@ import pic from "./assets/my_pic.jpg";
 //component imports
 import Technologies from "./Technologies";
 import Projects from "./Projects";
+import SiteFooter from "./SiteFooter";
 
 const Home = () => {
   return (
     <div className="body-container">
+
       <div className="info-container">
         <img className="my-img" src={pic} alt="slamm pic" />
 
@@ -19,6 +21,7 @@ const Home = () => {
           <p className="intro-text">
             Currently a Computer Science student at Cebu Institute of
             Technology. Programming has been my passion since the day I found
+
             out about it. I am very interested in learning the ins and outs of systems and creating my own.
             I am eager to learn more about developing my own software for everyone to use.
           </p>
