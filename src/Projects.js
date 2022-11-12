@@ -158,7 +158,7 @@ const Projects = () => {
         {/* PROJECT 4 */}
         <div className="project">
           <a
-            href="https://pokemau.github.io/instagramClone/"
+            href="https://lepitenbojos.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
