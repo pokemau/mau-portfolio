@@ -154,6 +154,41 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* PROJECT 4 */}
+        <div className="project">
+          <a
+            href="https://pokemau.github.io/instagramClone/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="proj-img"
+              src={require("./assets/lepitenbojos.png")}
+              alt="lepitenbojos img"
+            />
+          </a>
+
+          <h1 className="proj-title">Law Firm Website</h1>
+          <p className="proj-desc">A simple site</p>
+          <div className="tech-used">
+            <p>WORDPRESS</p>
+
+            <div className="redirect-links-container">
+              <a
+                href="https://lepitenbojos.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("./assets/go-to-icon.png")}
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

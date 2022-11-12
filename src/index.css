@@ -148,11 +148,11 @@ body {
 .proj-desc {
   margin-bottom: 0.5em;
   line-height: 1.8em;
+  text-align: justify;
 }
 .tech-used {
   display: flex;
   align-items: center;
-  margin-bottom: 1em;
 }
 .tech-used p {
   color: #e91b48;
@@ -262,3 +262,44 @@ body {
   height: 2.4em;
   width: 2.4em;
 }
+
+/* 1366 SCREEN SIZE */
+@media all and (min-width: 1920px) {
+  /* PROJECTS */
+  .projects-list {
+    grid-template-columns: repeat(4, 25em);
+  }
+  .project {
+    width: 25em;
+  }
+}
+/* 1280 SCREEN SIZE */
+@media all and (max-width: 1280px) {
+  /* NAVLINK */
+  .nav-link {
+    font-size: 1em;
+  }
+
+  /* ABOUT */
+  .my-img {
+    width: 18em;
+    height: 18em;
+  }
+  .intro-h {
+    font-size: 3.3em;
+  }
+  .intro-p {
+    font-size: 2em;
+  }
+
+  /* PROJECTS */
+  .projects-list {
+    grid-template-columns: repeat(2, 30em);
+  }
+  .project {
+    width: 30em;
+  }
+}
+/* 1024 SCREEN SIZE */
+
+/* 756 SCREEN SIZE */

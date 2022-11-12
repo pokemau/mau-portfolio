@@ -14,7 +14,6 @@ const Navbar = () => {
         >
           About
         </Link>
-
         <Link
           to="projects"
           className="nav-link"
@@ -24,7 +23,6 @@ const Navbar = () => {
         >
           Projects
         </Link>
-
         <Link
           to="contact"
           className="nav-link"
