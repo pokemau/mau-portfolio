@@ -1,9 +1,8 @@
-import pic from "./assets/my_pic.jpg";
+import pic from "../assets/my_pic.jpg";
+import "./Home.css";
 
 //component imports
-import Technologies from "./Technologies";
 import Projects from "./Projects";
-import SiteFooter from "./SiteFooter";
 
 const Home = () => {
   return (

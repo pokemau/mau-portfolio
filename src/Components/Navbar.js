@@ -1,5 +1,7 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 
+import "./Navbar.css";
+
 const Navbar = () => {
   return (
     <nav className="navbar">

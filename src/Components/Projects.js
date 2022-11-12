@@ -1,3 +1,5 @@
+import "./Projects.css";
+
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
@@ -12,7 +14,7 @@ const Projects = () => {
           >
             <img
               className="proj-img"
-              src={require("./assets/flaschardo1.png")}
+              src={require("../assets/flaschardo1.png")}
               alt="flashcardo img"
             />
           </a>
@@ -37,7 +39,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/github-logo.png")}
+                  src={require("../assets/github-logo.png")}
                   alt=""
                 />
               </a>
@@ -48,7 +50,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/go-to-icon.png")}
+                  src={require("../assets/go-to-icon.png")}
                   alt=""
                 />
               </a>
@@ -65,7 +67,7 @@ const Projects = () => {
           >
             <img
               className="proj-img"
-              src={require("./assets/lolchamps.png")}
+              src={require("../assets/lolchamps.png")}
               alt="flashcardo img"
             />
           </a>
@@ -89,7 +91,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/github-logo.png")}
+                  src={require("../assets/github-logo.png")}
                   alt=""
                 />
               </a>
@@ -100,7 +102,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/go-to-icon.png")}
+                  src={require("../assets/go-to-icon.png")}
                   alt=""
                 />
               </a>
@@ -117,7 +119,7 @@ const Projects = () => {
           >
             <img
               className="proj-img"
-              src={require("./assets/instaclone.png")}
+              src={require("../assets/instaclone.png")}
               alt="flashcardo img"
             />
           </a>
@@ -136,7 +138,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/github-logo.png")}
+                  src={require("../assets/github-logo.png")}
                   alt=""
                 />
               </a>
@@ -147,7 +149,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/go-to-icon.png")}
+                  src={require("../assets/go-to-icon.png")}
                   alt=""
                 />
               </a>
@@ -164,7 +166,7 @@ const Projects = () => {
           >
             <img
               className="proj-img"
-              src={require("./assets/lepitenbojos.png")}
+              src={require("../assets/lepitenbojos.png")}
               alt="lepitenbojos img"
             />
           </a>
@@ -182,7 +184,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/go-to-icon.png")}
+                  src={require("../assets/go-to-icon.png")}
                   alt=""
                 />
               </a>
