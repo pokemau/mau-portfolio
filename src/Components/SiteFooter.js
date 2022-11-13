@@ -1,3 +1,5 @@
+import "./SiteFooter.css";
+
 const SiteFooter = () => {
   return (
     <footer className="site-footer">
@@ -10,10 +12,11 @@ const SiteFooter = () => {
           href="https://www.linkedin.com/in/maurice-ta%C3%B1eca-986067255/"
           className="footer-link"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             className="ftr-img"
-            src={require("./assets/linkedin.png")}
+            src={require("../assets/linkedin.png")}
             alt="linkedin img"
           />
         </a>
@@ -22,10 +25,11 @@ const SiteFooter = () => {
           href="https://github.com/pokemau"
           className="footer-link"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             className="ftr-img"
-            src={require("./assets/github-logo.png")}
+            src={require("../assets/github-logo.png")}
             alt="github img"
           />
         </a>

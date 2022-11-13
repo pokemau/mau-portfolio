@@ -10,76 +10,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-/* navbar */
-.navbar {
-  display: flex;
-  align-items: center;
-  min-height: 4em;
-  padding: 0 2em 0 2em;
-  border-bottom: 2px solid rgb(235, 230, 230);
-}
-.nav-logo {
-  font-weight: 800;
-  font-size: 2.1em;
-  cursor: pointer;
-  color: #e91b48;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-.nav-link {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  font-size: 1.1em;
-  margin: 0.2em;
-  display: flex;
-  height: 2em;
-  align-items: center;
-  padding: 0 0.4em 0 0.4em;
-  transition: 0.1s;
-  border-radius: 5px;
-}
-.nav-link:hover {
-  background-color: rgb(243, 237, 248);
-}
-.nav-links > .active {
-  background-color: orange;
-}
-
-/* introduction */
-.body-container {
-  margin-top: 1.5em;
-}
-.info-container {
-  display: flex;
-  width: 85%;
-  margin: auto;
-  justify-content: center;
-  margin-bottom: 1.5em;
-}
-.my-img {
-  width: 22em;
-  height: 22em;
-  border-radius: 5px;
-  margin-right: 1.5em;
-}
-.intro-h {
-  font-size: 4em;
-  font-weight: 800;
-  color: rgb(34, 104, 211);
-}
-.intro-p {
-  font-size: 2.3em;
-  font-weight: 500;
-}
-.intro-text {
-  font-size: 1em;
-  line-height: 1.7em;
-}
-
 /* tech stack */
 .technologies {
   width: 85%;
@@ -105,160 +35,25 @@ body {
   height: 3em;
 }
 
-/* projects */
-.projects-container {
-  margin: auto;
-  margin-bottom: 2em;
-}
-.project-h {
-  font-size: 1.5em;
-  font-weight: 500;
-  text-align: center;
-  margin-bottom: 1em;
-}
-.projects-list {
-  display: grid;
-  grid-template-columns: repeat(3, 25em);
-  grid-gap: 1.5em;
-  justify-content: center;
-}
-.project {
-  padding: 1.5em;
-  width: 25em;
-  height: 30em;
-  box-shadow: 0 0 5px rgb(177, 177, 177);
-  border-radius: 10px;
-}
-.proj-img {
-  cursor: pointer;
-  width: 100%;
-  box-shadow: 0 0 8px rgb(177, 177, 177);
-  transition: 0.2s;
-  margin-bottom: 1em;
-}
-.proj-img:hover {
-  transform: scale(1.05);
-  z-index: 2;
-}
-.proj-title {
-  font-weight: 500;
-  font-size: 1.7em;
-  margin-bottom: 0.5em;
-}
-.proj-desc {
-  margin-bottom: 0.5em;
-  line-height: 1.8em;
-}
-.tech-used {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1em;
-}
-.tech-used p {
-  color: #e91b48;
-  font-size: 1em;
-  margin: 0.3em;
-  font-weight: 500;
-}
-/* redirect links */
-.redirect-links-container {
-  margin-left: auto;
-}
-.redirect-img {
-  width: 1.7em;
-  height: 1.7em;
-  margin: 0.3em;
-  transition: 0.1s;
-}
-.redirect-img:hover {
-  transform: scale(1.1);
-}
+/* 1280 SCREEN SIZE */
+@media all and (max-width: 1280px) {
+  /* NAVLINK */
+  .nav-link {
+    font-size: 1em;
+  }
 
-/* contact container */
-.contact-container {
-  background-color: rgb(34, 104, 211);
-  width: 90%;
-  margin: auto;
-  margin-bottom: 1em;
-  color: rgb(243, 234, 234);
-  padding: 2em;
-  border-radius: 10px;
+  /* ABOUT */
+  .my-img {
+    width: 18em;
+    height: 18em;
+  }
+  .intro-h {
+    font-size: 3.3em;
+  }
+  .intro-p {
+    font-size: 2em;
+  }
 }
-.form-container {
-  display: flex;
-  justify-content: center;
-}
-.form-container input:focus,
-.message-cont textarea:focus {
-  outline: none;
-}
+/* 1024 SCREEN SIZE */
 
-.name-cont input,
-.email-cont input {
-  width: 18em;
-  height: 2.6em;
-  margin: 0.4em 0;
-  padding: 0.3em;
-}
-.message-cont {
-  margin: 0 0 0 2em;
-}
-.message-cont textarea {
-  margin: 0.4em 0;
-  width: 35em;
-  height: 15em;
-  padding: 0.5em;
-}
-
-.submit-btn {
-  display: flex;
-  margin-left: auto;
-  width: 7em;
-  height: 2em;
-  font-size: 1em;
-  border-radius: 5px;
-  border: none;
-  background-color: #e91b48;
-  color: rgb(245, 233, 233);
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 0.2s;
-}
-.submit-btn:hover {
-  background-color: #d3163f;
-}
-
-/* site footer */
-.site-footer {
-  border-top: 2px solid rgb(235, 230, 230);
-  min-height: 4em;
-  display: flex;
-  align-items: center;
-  padding: 0 2em;
-}
-.site-footer p {
-  color: rgb(176, 180, 176);
-  margin-left: 1em;
-}
-.footer-logo {
-  font-weight: 800;
-  font-size: 2.1em;
-  cursor: pointer;
-  color: #e91b48;
-}
-.socmed-container {
-  display: flex;
-  margin-left: auto;
-}
-.footer-link {
-  margin: 0.5em;
-  transition: 0.2s;
-}
-.footer-link:hover {
-  transform: scale(1.1);
-}
-.ftr-img {
-  height: 2.4em;
-  width: 2.4em;
-}
+/* 756 SCREEN SIZE */

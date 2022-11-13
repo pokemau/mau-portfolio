@@ -1,8 +1,8 @@
 // component imports
-import Navbar from "./Navbar";
-import Home from "./Home";
-import Contact from "./Contact";
-import SiteFooter from "./SiteFooter";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import Contact from "./Components/Contact";
+import SiteFooter from "./Components/SiteFooter";
 
 function App() {
   return (
