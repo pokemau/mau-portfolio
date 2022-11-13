@@ -3,7 +3,7 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
-      <h1 className="project-h">Projects</h1>
+      <h1 className="project-h">PROJECTS</h1>
       <div className="projects-list">
         {/* PROJECT 1 */}
         <div className="project">
@@ -75,8 +75,8 @@ const Projects = () => {
           <h1 className="proj-title">LOL Champa</h1>
           <p className="proj-desc">
             A web app made with ReactJS which shows the basic information of a
-            champion in the famous MOBA game League of Legends. The data is
-            downloaded from Riot Game's data dragon.
+            champion in the famous MOBA game League of Legends. The static data
+            is downloaded from Riot Games' data dragon.
           </p>
           <div className="tech-used">
             <p>REACTJS</p>
@@ -125,7 +125,10 @@ const Projects = () => {
           </a>
 
           <h1 className="proj-title">Instagram Clone</h1>
-          <p className="proj-desc">A simple site</p>
+          <p className="proj-desc">
+            A simple site made with plain CSS and HTML to apply my skills on
+            following a given template or design for a website.
+          </p>
           <div className="tech-used">
             <p>HTML</p>
             <p>CSS</p>
@@ -172,7 +175,11 @@ const Projects = () => {
           </a>
 
           <h1 className="proj-title">Law Firm Website</h1>
-          <p className="proj-desc">A simple site</p>
+          <p className="proj-desc">
+            This is a mobile responsive website for a law firm located in Cebu
+            City. I made this website with WordPress when I was an intern for
+            them.
+          </p>
           <div className="tech-used">
             <p>WORDPRESS</p>
 
