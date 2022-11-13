@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mau-portfolio/static/css/main.fd2d4fb7.css",
-    "main.js": "/mau-portfolio/static/js/main.13b6bde0.js",
-    "static/media/my_pic.jpg": "/mau-portfolio/static/media/my_pic.2e73b0f2ff2130edd31a.jpg",
-    "static/media/lepitenbojos.png": "/mau-portfolio/static/media/lepitenbojos.d2ec62adbe417dc4542e.png",
-    "static/media/lolchamps.png": "/mau-portfolio/static/media/lolchamps.88f8b847173e9ec95690.png",
-    "static/media/instaclone.png": "/mau-portfolio/static/media/instaclone.dc8c03e1924889e98b06.png",
-    "static/media/flaschardo1.png": "/mau-portfolio/static/media/flaschardo1.cf6e42a2d57647f22d1a.png",
+    "main.css": "/mau-portfolio/static/css/main.be755078.css",
+    "main.js": "/mau-portfolio/static/js/main.d95fdc48.js",
+    "static/media/my_pic.jpg": "/mau-portfolio/static/media/my_pic.4cfedc7469fc265e38ca.jpg",
+    "static/media/lolchamps.png": "/mau-portfolio/static/media/lolchamps.351d5e1e2fc73a5c934b.png",
+    "static/media/lepitenbojos.png": "/mau-portfolio/static/media/lepitenbojos.608d0d6991f3d6ebbb44.png",
+    "static/media/instaclone.png": "/mau-portfolio/static/media/instaclone.8790a6f2ad4bb8a1b493.png",
+    "static/media/flaschardo1.png": "/mau-portfolio/static/media/flaschardo1.5aee3b27ffec95c8188e.png",
     "index.html": "/mau-portfolio/index.html",
-    "main.fd2d4fb7.css.map": "/mau-portfolio/static/css/main.fd2d4fb7.css.map",
-    "main.13b6bde0.js.map": "/mau-portfolio/static/js/main.13b6bde0.js.map"
+    "main.be755078.css.map": "/mau-portfolio/static/css/main.be755078.css.map",
+    "main.d95fdc48.js.map": "/mau-portfolio/static/js/main.d95fdc48.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd2d4fb7.css",
-    "static/js/main.13b6bde0.js"
+    "static/css/main.be755078.css",
+    "static/js/main.d95fdc48.js"
   ]
 }
