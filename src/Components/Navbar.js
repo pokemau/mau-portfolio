@@ -1,12 +1,20 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+import { useRef } from "react";
 
 import "./Navbar.css";
 
 const Navbar = () => {
+  const navLinkRef = useRef(null);
+
+  function showNav() {
+    console.log(navLinkRef.current.classList);
+    navLinkRef.current.classList.toggle("active-hamburger");
+  }
+
   return (
     <nav className="navbar">
       <h1 className="nav-logo">MT</h1>
-      <div className="nav-links">
+      <div className="nav-links" ref={navLinkRef}>
         <Link
           to="about"
           className="nav-link"
@@ -34,6 +42,14 @@ const Navbar = () => {
         >
           Contact
         </Link>
+      </div>
+
+      <div onClick={showNav} className="hamburger-container">
+        <img
+          className="hamburger-icon"
+          src={require("../assets/hamburger.png")}
+          alt="hamburger icon"
+        />
       </div>
     </nav>
   );

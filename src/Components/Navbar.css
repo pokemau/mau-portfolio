@@ -35,3 +35,45 @@
 .nav-links > .active {
   background-color: orange;
 }
+
+.hamburger-container {
+  display: none;
+  width: 2em;
+}
+.hamburger-icon {
+  width: 2em;
+}
+
+@media all and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 98vw;
+    padding: 0.8em;
+    margin: auto;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  .nav-link {
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+  }
+  .hamburger-container {
+    display: flex;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
+  .active-hamburger {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+}
