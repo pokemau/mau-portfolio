@@ -1,7 +1,9 @@
+import "./Projects.css";
+
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
-      <h1 className="project-h">Projects</h1>
+      <h1 className="project-h">PROJECTS</h1>
       <div className="projects-list">
         {/* PROJECT 1 */}
         <div className="project">
@@ -12,7 +14,7 @@ const Projects = () => {
           >
             <img
               className="proj-img"
-              src={require("./assets/flaschardo1.png")}
+              src={require("../assets/flaschardo1.png")}
               alt="flashcardo img"
             />
           </a>
@@ -21,8 +23,8 @@ const Projects = () => {
           <p className="proj-desc">
             A simple flashcard app where it can be used by the user to quiz
             themselves when studying for an upcoming quiz or exam. It uses the
-            browser's local storage to store flashcard sets which can be
-            deleted.
+            browser's local storage to store flashcard sets which can be deleted
+            by the user.
           </p>
           <div className="tech-used">
             <p>HTML</p>
@@ -37,7 +39,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/github-logo.png")}
+                  src={require("../assets/github-logo.png")}
                   alt=""
                 />
               </a>
@@ -48,7 +50,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/go-to-icon.png")}
+                  src={require("../assets/go-to-icon.png")}
                   alt=""
                 />
               </a>
@@ -65,7 +67,7 @@ const Projects = () => {
           >
             <img
               className="proj-img"
-              src={require("./assets/lolchamps.png")}
+              src={require("../assets/lolchamps.png")}
               alt="flashcardo img"
             />
           </a>
@@ -73,8 +75,8 @@ const Projects = () => {
           <h1 className="proj-title">LOL Champa</h1>
           <p className="proj-desc">
             A web app made with ReactJS which shows the basic information of a
-            champion in the famous MOBA game League of Legends. The data is
-            downloaded from the League of Legends
+            champion in the famous MOBA game League of Legends. The static data
+            is downloaded from Riot Games' data dragon.
           </p>
           <div className="tech-used">
             <p>REACTJS</p>
@@ -89,7 +91,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/github-logo.png")}
+                  src={require("../assets/github-logo.png")}
                   alt=""
                 />
               </a>
@@ -100,7 +102,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/go-to-icon.png")}
+                  src={require("../assets/go-to-icon.png")}
                   alt=""
                 />
               </a>
@@ -117,16 +119,15 @@ const Projects = () => {
           >
             <img
               className="proj-img"
-              src={require("./assets/instaclone.png")}
+              src={require("../assets/instaclone.png")}
               alt="flashcardo img"
             />
           </a>
 
           <h1 className="proj-title">Instagram Clone</h1>
           <p className="proj-desc">
-            A web app made with ReactJS which shows the basic information of a
-            champion in the famous MOBA game League of Legends. The data is
-            downloaded from the League of Legends
+            A simple site made with plain CSS and HTML to apply my skills on
+            following a given template or design for a website.
           </p>
           <div className="tech-used">
             <p>HTML</p>
@@ -140,7 +141,7 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/github-logo.png")}
+                  src={require("../assets/github-logo.png")}
                   alt=""
                 />
               </a>
@@ -151,7 +152,46 @@ const Projects = () => {
               >
                 <img
                   className="redirect-img"
-                  src={require("./assets/go-to-icon.png")}
+                  src={require("../assets/go-to-icon.png")}
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* PROJECT 4 */}
+        <div className="project">
+          <a
+            href="https://lepitenbojos.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="proj-img"
+              src={require("../assets/lepitenbojos.png")}
+              alt="lepitenbojos img"
+            />
+          </a>
+
+          <h1 className="proj-title">Law Firm Website</h1>
+          <p className="proj-desc">
+            This is a mobile responsive website for a law firm located in Cebu
+            City. I made this website with WordPress when I was an intern for
+            them.
+          </p>
+          <div className="tech-used">
+            <p>WORDPRESS</p>
+
+            <div className="redirect-links-container">
+              <a
+                href="https://lepitenbojos.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="redirect-img"
+                  src={require("../assets/go-to-icon.png")}
                   alt=""
                 />
               </a>
