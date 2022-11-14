@@ -10,20 +10,19 @@ const Home = () => {
     <div className="body-container">
 
       <div className="info-container">
-        <img className="my-img" src={pic} alt="slamm pic" />
+        <img className="my-img" src={pic} alt="maurice pic" />
 
         <div className="intro-text-container">
-          <h2 className="intro-h">SLAMM KHELMER A. LUAB</h2>
-          <p className="intro-p">Game Developer</p>
+          <h2 className="intro-h">MAURICE R. TAÑECA</h2>
+          <p className="intro-p">Front-End Web Developer</p>
 
           <br />
 
           <p className="intro-text">
             Currently a Computer Science student at Cebu Institute of
             Technology. Programming has been my passion since the day I found
-
-            out about it. I am very interested in learning the ins and outs of systems and creating my own.
-            I am eager to learn more about developing my own software for everyone to use.
+            out about it. With a good foundation of HTML, CSS and Javascript, I
+            am Eager to learn more and expand my knowledge as a developer.
           </p>
           <p className="intro-text"></p>
         </div>
