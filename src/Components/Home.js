@@ -7,7 +7,6 @@ import Projects from "./Projects";
 const Home = () => {
   return (
     <div className="body-container">
-      <div className="info-container">
       <div className="info-container" id="about">
         <img className="my-img" src={pic} alt="maurice pic" />
 
