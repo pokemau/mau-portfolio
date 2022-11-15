@@ -7,7 +7,6 @@ const Navbar = () => {
   const navLinkRef = useRef(null);
 
   function showNav() {
-    console.log(navLinkRef.current.classList);
     navLinkRef.current.classList.toggle("active-hamburger");
   }
 
