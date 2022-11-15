@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mau-portfolio/static/css/main.be755078.css",
-    "main.js": "/mau-portfolio/static/js/main.d95fdc48.js",
+    "main.js": "/mau-portfolio/static/js/main.824bbeae.js",
     "static/media/my_pic.jpg": "/mau-portfolio/static/media/my_pic.4cfedc7469fc265e38ca.jpg",
     "static/media/lolchamps.png": "/mau-portfolio/static/media/lolchamps.351d5e1e2fc73a5c934b.png",
     "static/media/lepitenbojos.png": "/mau-portfolio/static/media/lepitenbojos.608d0d6991f3d6ebbb44.png",
@@ -9,10 +9,10 @@
     "static/media/flaschardo1.png": "/mau-portfolio/static/media/flaschardo1.5aee3b27ffec95c8188e.png",
     "index.html": "/mau-portfolio/index.html",
     "main.be755078.css.map": "/mau-portfolio/static/css/main.be755078.css.map",
-    "main.d95fdc48.js.map": "/mau-portfolio/static/js/main.d95fdc48.js.map"
+    "main.824bbeae.js.map": "/mau-portfolio/static/js/main.824bbeae.js.map"
   },
   "entrypoints": [
     "static/css/main.be755078.css",
-    "static/js/main.d95fdc48.js"
+    "static/js/main.824bbeae.js"
   ]
 }
