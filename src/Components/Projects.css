@@ -20,6 +20,8 @@
   min-height: 30em;
   box-shadow: 0 0 5px rgb(177, 177, 177);
   border-radius: 10px;
+
+  justify-self: center;
 }
 .proj-img {
   cursor: pointer;
@@ -78,12 +80,6 @@
 @media all and (max-width: 1280px) {
   .projects-list {
     grid-template-columns: repeat(2, 43vw);
-  }
-}
-
-/* 1024 px */
-@media all and (max-width: 1024px) {
-  .projects-list {
   }
 }
 

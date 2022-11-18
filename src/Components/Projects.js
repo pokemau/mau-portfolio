@@ -10,8 +10,7 @@ const Projects = () => {
           <a
             href="https://pokemau.github.io/flashcardo/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               className="proj-img"
               src={require("../assets/flaschardo1.png")}
@@ -35,8 +34,7 @@ const Projects = () => {
               <a
                 href="https://github.com/pokemau/flashcardo"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <img
                   className="redirect-img"
                   src={require("../assets/github-logo.png")}
@@ -46,8 +44,7 @@ const Projects = () => {
               <a
                 href="https://pokemau.github.io/flashcardo/"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <img
                   className="redirect-img"
                   src={require("../assets/go-to-icon.png")}
@@ -63,8 +60,7 @@ const Projects = () => {
           <a
             href="https://pokemau.github.io/lol-champs-react/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               className="proj-img"
               src={require("../assets/lolchamps.png")}
@@ -87,8 +83,7 @@ const Projects = () => {
               <a
                 href="https://github.com/pokemau/lol-champs-react"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <img
                   className="redirect-img"
                   src={require("../assets/github-logo.png")}
@@ -98,8 +93,7 @@ const Projects = () => {
               <a
                 href="https://pokemau.github.io/lol-champs-react/"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <img
                   className="redirect-img"
                   src={require("../assets/go-to-icon.png")}
@@ -115,8 +109,7 @@ const Projects = () => {
           <a
             href="https://pokemau.github.io/instagramClone/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               className="proj-img"
               src={require("../assets/instaclone.png")}
@@ -137,8 +130,7 @@ const Projects = () => {
               <a
                 href="https://github.com/pokemau/instagramClone"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <img
                   className="redirect-img"
                   src={require("../assets/github-logo.png")}
@@ -148,8 +140,7 @@ const Projects = () => {
               <a
                 href="https://pokemau.github.io/instagramClone/"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <img
                   className="redirect-img"
                   src={require("../assets/go-to-icon.png")}
@@ -165,8 +156,7 @@ const Projects = () => {
           <a
             href="https://lepitenbojos.org/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               className="proj-img"
               src={require("../assets/lepitenbojos.png")}
@@ -187,8 +177,7 @@ const Projects = () => {
               <a
                 href="https://lepitenbojos.org/"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <img
                   className="redirect-img"
                   src={require("../assets/go-to-icon.png")}
