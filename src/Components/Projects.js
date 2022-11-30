@@ -26,9 +26,9 @@ const Projects = () => {
             by the user.
           </p>
           <div className="tech-used">
+            <p>NEXTJS</p>
             <p>HTML</p>
             <p>CSS</p>
-            <p>JAVASCRIPT</p>
 
             <div className="redirect-links-container">
               <a
