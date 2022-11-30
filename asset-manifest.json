@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mau-portfolio/static/css/main.6cca9004.css",
-    "main.js": "/mau-portfolio/static/js/main.2cd1185f.js",
+    "main.css": "/mau-portfolio/static/css/main.4e43bc07.css",
+    "main.js": "/mau-portfolio/static/js/main.0e1a9f4d.js",
     "static/media/my_pic.jpg": "/mau-portfolio/static/media/my_pic.4cfedc7469fc265e38ca.jpg",
     "static/media/lolchamps.png": "/mau-portfolio/static/media/lolchamps.0b9ad768b27c7b5549ca.png",
     "static/media/lepitenbojos.png": "/mau-portfolio/static/media/lepitenbojos.608d0d6991f3d6ebbb44.png",
     "static/media/instaclone.png": "/mau-portfolio/static/media/instaclone.1dfa1c43b5fe00393440.png",
-    "static/media/flaschardo1.png": "/mau-portfolio/static/media/flaschardo1.567269101e7526e8e2bf.png",
+    "static/media/flaschardo1.png": "/mau-portfolio/static/media/flaschardo1.81734667a429f7e842c2.png",
     "index.html": "/mau-portfolio/index.html",
-    "main.6cca9004.css.map": "/mau-portfolio/static/css/main.6cca9004.css.map",
-    "main.2cd1185f.js.map": "/mau-portfolio/static/js/main.2cd1185f.js.map"
+    "main.4e43bc07.css.map": "/mau-portfolio/static/css/main.4e43bc07.css.map",
+    "main.0e1a9f4d.js.map": "/mau-portfolio/static/js/main.0e1a9f4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cca9004.css",
-    "static/js/main.2cd1185f.js"
+    "static/css/main.4e43bc07.css",
+    "static/js/main.0e1a9f4d.js"
   ]
 }
