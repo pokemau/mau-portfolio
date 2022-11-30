@@ -1,2 +1,2 @@
 # Trust the Process
-Site URL: https://pokemau.github.io/mau-portfolio/
+https://pokemau.github.io/mau-portfolio/
