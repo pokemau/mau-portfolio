@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="project">
           <div className="proj-info-cont">
             <a
-              href="https://pokemau.github.io/flashcardo/"
+              href="https://better-flashcardo.vercel.app/"
               target="_blank"
               rel="noopener noreferrer">
               <img
@@ -34,7 +34,7 @@ const Projects = () => {
 
             <div className="redirect-links-container">
               <a
-                href="https://github.com/pokemau/flashcardo"
+                href="https://github.com/pokemau/better-flashcardo"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
@@ -44,7 +44,7 @@ const Projects = () => {
                 />
               </a>
               <a
-                href="https://pokemau.github.io/flashcardo/"
+                href="https://better-flashcardo.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
