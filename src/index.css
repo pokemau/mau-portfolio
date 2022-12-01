@@ -8,6 +8,16 @@
 body {
   font-family: "Rubik", sans-serif;
   background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+body::-webkit-scrollbar-track {
+  background: #e91b48;
+}
+body::-webkit-scrollbar-thumb {
+  background: #7a3737;
 }
 
 /* tech stack */

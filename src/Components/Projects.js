@@ -29,8 +29,8 @@ const Projects = () => {
           </div>
           <div className="tech-used">
             <p>NEXTJS</p>
+            <p>TAILWIND</p>
             <p>HTML</p>
-            <p>CSS</p>
 
             <div className="redirect-links-container">
               <a
