@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/mau-portfolio/static/css/main.5ed1bdce.css",
-    "main.js": "/mau-portfolio/static/js/main.58dad4bc.js",
+    "main.js": "/mau-portfolio/static/js/main.ef35e37d.js",
     "static/media/my_pic.jpg": "/mau-portfolio/static/media/my_pic.4cfedc7469fc265e38ca.jpg",
     "static/media/lolchamps.png": "/mau-portfolio/static/media/lolchamps.0b9ad768b27c7b5549ca.png",
     "static/media/lepitenbojos.png": "/mau-portfolio/static/media/lepitenbojos.608d0d6991f3d6ebbb44.png",
     "static/media/instaclone.png": "/mau-portfolio/static/media/instaclone.1dfa1c43b5fe00393440.png",
-    "static/media/flaschardo1.png": "/mau-portfolio/static/media/flaschardo1.81734667a429f7e842c2.png",
+    "static/media/flaschardo1.png": "/mau-portfolio/static/media/flaschardo1.1321f8b799d3b0ad1c2c.png",
     "index.html": "/mau-portfolio/index.html",
     "main.5ed1bdce.css.map": "/mau-portfolio/static/css/main.5ed1bdce.css.map",
-    "main.58dad4bc.js.map": "/mau-portfolio/static/js/main.58dad4bc.js.map"
+    "main.ef35e37d.js.map": "/mau-portfolio/static/js/main.ef35e37d.js.map"
   },
   "entrypoints": [
     "static/css/main.5ed1bdce.css",
-    "static/js/main.58dad4bc.js"
+    "static/js/main.ef35e37d.js"
   ]
 }
