@@ -29,6 +29,7 @@ const Projects = () => {
           </div>
           <div className="tech-used">
             <p>NEXTJS</p>
+            <p>FIREBASE</p>
             <p>TAILWIND</p>
             <p>HTML</p>
 
