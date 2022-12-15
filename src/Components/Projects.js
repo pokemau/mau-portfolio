@@ -9,6 +9,58 @@ const Projects = () => {
         <div className="project">
           <div className="proj-info-cont">
             <a
+              href="https://yahallo.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img
+                className="proj-img"
+                src={require("../assets/chatapp.png")}
+                alt="chat app img"
+              />
+            </a>
+
+            <h1 className="proj-title">Chat Site</h1>
+            <p className="proj-desc">
+              A webapp where I used NextJS for the frontend and Firebase for the
+              backend. The user can login through Firebase's built-in Google
+              authentication, and can send messages in a public chatroom. The
+              site has realtime updates whenever other users send a message.
+            </p>
+          </div>
+          <div className="tech-used">
+            <p>NEXTJS</p>
+            <p>TAILWIND</p>
+            <p>HTML</p>
+
+            <div className="redirect-links-container">
+              <a
+                href="https://github.com/pokemau/Chat-App"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  className="redirect-img"
+                  src={require("../assets/github-logo.png")}
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://yahallo.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  className="redirect-img"
+                  src={require("../assets/go-to-icon.png")}
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* PROJECT 2 */}
+        <div className="project">
+          <div className="proj-info-cont">
+            <a
               href="https://better-flashcardo.vercel.app/"
               target="_blank"
               rel="noopener noreferrer">
@@ -21,10 +73,10 @@ const Projects = () => {
 
             <h1 className="proj-title">Flashcardo</h1>
             <p className="proj-desc">
-              A simple flashcard app where it can be used by the user to quiz
-              themselves when studying for an upcoming quiz or exam. It uses the
-              browser's local storage to store flashcard sets which can be
-              deleted by the user.
+              A flashcard app where it can be used by the user to quiz
+              themselves when studying for an upcoming quiz or exam. It utilizes
+              the browser's local storage to store the flashcard sets which can
+              then be viewed or can be deleted by the user.
             </p>
           </div>
           <div className="tech-used">
